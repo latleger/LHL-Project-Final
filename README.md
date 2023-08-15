@@ -1,4 +1,4 @@
-![Alt text](image-1.png)
+![Alt text](https://github.com/latleger/LHL-Project-Final/blob/main/images/image-1.png)
 
 
 # Demand Forecasting and Inventory Optimization (Road Map)
