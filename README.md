@@ -12,7 +12,7 @@
 City Cyclery's business is highly seasonal, experiencing fluctuations in demand based on factors such as weather and seasonality. The challenge is to accurately predict customer demand and optimize inventory levels to meet this demand while minimizing carrying costs.
 
 ## Exploratory Data Analysis (EDA)
-The "EDA_Results" folder contains detailed exploratory data analysis results. These insights are crucial for understanding historical sales patterns and seasonality affecting demand.
+The ["EDA_Results"](https://github.com/latleger/LHL-Project-Final/tree/main/EDAs) folder contains detailed exploratory data analysis results. These insights are crucial for understanding historical sales patterns and seasonality affecting demand.
 
 ## Demand Forecasting Model Refinement
 
