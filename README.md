@@ -5,7 +5,7 @@
 
 ## Introduction
 [City Cyclery](http://citycyclery.ca/), a local bike shop in Windsor, Ontario, Canada, is dedicated to revolutionizing its operations through cutting-edge Demand Forecasting, Inventory Optimization, and Automation. In pursuit of excellence, City Cyclery has successfully developed a robust Demand Forecasting model and is now working diligently to fine-tune its accuracy and validation processes. This transformative initiative aims to ensure optimal stock levels while minimizing costs and enhancing customer satisfaction.<br>
-![homepage](https://github.com/latleger/LHL-Project-Final/blob/main/images/homepage.png)<br>
+![home_page](https://github.com/latleger/LHL-Project-Final/blob/main/images/homepage.png)<br>
 **The model uses real data provided by City Cyclery.**
 
 ## Problem Statement
