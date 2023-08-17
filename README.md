@@ -30,7 +30,7 @@ City Cyclery has achieved a significant milestone by developing a Demand Forecas
 Upon employing [Prophet](https://github.com/latleger/LHL-Project-Final/tree/main/notebooks/SARIMA_model) and [SARIMA](https://github.com/latleger/LHL-Project-Final/tree/main/notebooks/prophet_model) time series models, the dataset indeed reveals a notable presence of seasonality as hypothesized for the business. Yet, owing to the inherent dataset randomness, the successful evaluation of the model has posed challenges. Nevertheless, I am optimistic that by considering additional factors such as weather patterns and local events, I can refine and enhance the outcomes in future iterations.
 
 ## Predictions and Model Evaluation:
-![Results](https://github.com/latleger/LHL-Project-Final/blob/main/images/results.png)
+![Results](https://github.com/latleger/LHL-Project-Final/blob/main/images/results.png)<br>
 Following thorough model assessments, our initial assumption leaned towards the SARIMA model for its potential in offering more pragmatic predictions, aligning with our evaluation findings. However, upon juxtaposing the forecasted quantities with actual sales in the subsequent week, the Prophet model emerged as the victor, demonstrating heightened accuracy and accounting for the shop's closure periods. To further validate these findings, additional prediction rounds are imperative.
 
 ## Raod Map
