@@ -1,4 +1,4 @@
-![Alt text](https://github.com/latleger/LHL-Project-Final/blob/main/images/image-1.png)
+![Logo](https://github.com/latleger/LHL-Project-Final/blob/main/images/image-1.png)
 
 
 # Demand Forecasting and Inventory Optimization (Road Map)
@@ -9,7 +9,8 @@
 **The model uses real data provided by City Cyclery.**
 
 ## Problem Statement
-City Cyclery's business is highly seasonal, experiencing fluctuations in demand based on factors such as weather and seasonality. The challenge is to accurately predict customer demand and optimize inventory levels to meet this demand while minimizing carrying costs.
+City Cyclery's business is highly seasonal, experiencing fluctuations in demand based on factors such as weather and seasonality. The challenge is to accurately predict customer demand and optimize inventory levels to meet this demand while minimizing carrying costs. We are also attempting to forecast quantities one week in advance. Reducing the purchasing from daily to once a week.
+
 
 ## Exploratory Data Analysis (EDA)
 The ["EDA_Results"](https://github.com/latleger/LHL-Project-Final/tree/main/EDAs) folder contains detailed exploratory data analysis results. These insights are crucial for understanding historical sales patterns and seasonality affecting demand.
@@ -23,8 +24,15 @@ City Cyclery has achieved a significant milestone by developing a Demand Forecas
 - Fine-Tuning: Devote efforts to fine-tuning the Demand Forecasting model to enhance its accuracy and predictive capabilities.
 - Validation Process: Rigorously validate the model's performance by comparing its predictions with actual sales data, ensuring reliable forecasts.
 
-## Challenges
-After using Prophet and SARIMA time series models, the dataset does correlate the hypothieze significant seaonsality of the business. Since there is seasonality and randomness within this dataset, at this point, it has been difficult to evaluate the model successfully. However, I believe, if I look at other factors, such as the weather, neighborhood events, etc., I should be able to fine-tune the results in the future.
+## Challenges and Results:
+Upon employing [Prophet](https://github.com/latleger/LHL-Project-Final/tree/main/notebooks/SARIMA_model) and [SARIMA](https://github.com/latleger/LHL-Project-Final/tree/main/notebooks/prophet_model) time series models, the dataset indeed reveals a notable presence of seasonality as hypothesized for the business. Yet, owing to the inherent dataset randomness, the successful evaluation of the model has posed challenges. Nevertheless, I am optimistic that by considering additional factors such as weather patterns and local events, I can refine and enhance the outcomes in future iterations.
+
+## Predictions and Model Evaluation:
+![Results](https://github.com/latleger/LHL-Project-Final/blob/main/images/results.png)
+Following thorough model assessments, our initial assumption leaned towards the SARIMA model for its potential in offering more pragmatic predictions, aligning with our evaluation findings. However, upon juxtaposing the forecasted quantities with actual sales in the subsequent week, the Prophet model emerged as the victor, demonstrating heightened accuracy and accounting for the shop's closure periods. To further validate these findings, additional prediction rounds are imperative.
+
+## Raod Map
+![Road Map](https://github.com/latleger/LHL-Project-Final/blob/main/images/roadmap.png)
 
 ## Inventory Management
 
