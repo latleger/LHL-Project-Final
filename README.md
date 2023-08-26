@@ -5,7 +5,9 @@
 
 ## Introduction
 [City Cyclery](http://citycyclery.ca/), a local bike shop in Windsor, Ontario, Canada, is dedicated to revolutionizing its operations through cutting-edge Demand Forecasting, Inventory Optimization, and Automation. In pursuit of excellence, City Cyclery has successfully developed a robust Demand Forecasting model and is now working diligently to fine-tune its accuracy and validation processes. This transformative initiative aims to ensure optimal stock levels while minimizing costs and enhancing customer satisfaction.<br>
+
 ![homepage](https://github.com/latleger/LHL-Project-Final/blob/main/images/home_page.png)<br>
+
 **The model uses real data provided by City Cyclery.**
 
 ## Problem Statement
@@ -28,7 +30,7 @@ City Cyclery has achieved a significant milestone by developing a Demand Forecas
 Upon employing [Prophet](https://github.com/latleger/LHL-Project-Final/tree/main/notebooks/SARIMA_model) and [SARIMA](https://github.com/latleger/LHL-Project-Final/tree/main/notebooks/prophet_model) time series models, the dataset indeed reveals a notable presence of seasonality as hypothesized for the business. Yet, owing to the inherent dataset randomness, the successful evaluation of the model has posed challenges. Nevertheless, I am optimistic that by considering additional factors such as weather patterns and local events, I can refine and enhance the outcomes in future iterations.
 
 ## Predictions and Model Evaluation:
-![Results](https://github.com/latleger/LHL-Project-Final/blob/main/images/results.png)
+![Results](https://github.com/latleger/LHL-Project-Final/blob/main/images/results.png)<br>
 Following thorough model assessments, our initial assumption leaned towards the SARIMA model for its potential in offering more pragmatic predictions, aligning with our evaluation findings. However, upon juxtaposing the forecasted quantities with actual sales in the subsequent week, the Prophet model emerged as the victor, demonstrating heightened accuracy and accounting for the shop's closure periods. To further validate these findings, additional prediction rounds are imperative.
 
 ## Raod Map
